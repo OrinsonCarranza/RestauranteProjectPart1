@@ -57,7 +57,7 @@ body{
 }
 .container .card{
     width: 250px;
-    height: 230px;
+    height: 130px;
     display: flex;
     flex-direction: column;
     border-radius: 8px;
@@ -121,22 +121,68 @@ footer{
     align-items: center;
 }
 .seleccion{
-    width: 40%;
     background: gainsboro;
     border-radius: 10px;
     position: absolute;
     margin-top: 8%;
     padding: 5px;
-    margin-left: 40%;
+    margin-left: 50%;
+    overflow-y: scroll;
+}
+option{
+    height: 50px;
     overflow-y: scroll;
 }
 .seleccion2{
-    width: 40%;
     background: gainsboro;
     border-radius: 10px;
     position: absolute;
     margin-top: 35%;
     padding: 5px;
-    margin-left: 40%;
+    margin-left: 50%;
     overflow-y: scroll;
+}
+.pendientes h2{
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.card h2{
+    display: flex;    
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+.tabla{
+    border: 2px solid black;
+    width: 356px;
+    margin: 10px auto;
+    width: 600px;
+}
+table{
+    background-color: aliceblue;
+    width: 600px;
+    border-collapse: collapse;
+
+}
+th{
+    padding: 10px;
+}
+td{
+    text-align: left;
+    text-align: center;
+    padding: 10px;
+}
+thead{
+    background-color: #FCC84D;
+    border-bottom: 3px solid black;
+}
+tr:nth-child(even){
+    background-color: #DCDDE2;
+}
+tr:hover td{
+    background-color: #87CEEB;
+    color: #211f20;
+    transition: 300ms;
+}
+i{
+    font-size: 50px;
 }

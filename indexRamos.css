@@ -5,6 +5,7 @@
     font-family: 'poppins',sans-serif;
 }
 section{
+    padding-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,6 +20,7 @@ section{
 
 .form-box{
     position: relative;
+    top: 60px;
     width: 400px;
     height: 450px;
     background: transparent;
